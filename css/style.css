@@ -7,26 +7,6 @@
     --color-blue5: #A5D2F1;
     --
 }
-body {
-
-}
-
-/* Start Navbar*/
-.navbar {
-    background: var(--color-navbar) ;
-    position: fixed ;
-}
-.nav-link {
-    color: var(--color-navbar-text) !important;
-}
-.navbar-brand {
-    color: var(--color-navbar-text) !important;
-}
-.btn-outline-success {
-    border-color: #ffffff !important;
-    color: #ffffff !important;
-}
-/* End Navbar*/
 
 /* Start Slider */
 .carousel-inner {
@@ -54,6 +34,8 @@ body {
     margin-bottom: 40px;
  }
  /* End Card */
+
+
 
 
 
