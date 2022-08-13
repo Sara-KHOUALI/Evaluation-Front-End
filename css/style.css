@@ -34,6 +34,15 @@
     margin-bottom: 40px;
  }
  /* End Card */
+ .btn-primary {
+    --bs-btn-color:var(--color-navbar);
+    --bs-btn-bg:var(--color-titre-presentation);
+    --bs-btn-hover-color: ;
+    --bs-btn-hover-border-color: ;
+    --bs-btn-active-border-color: ;
+    
+
+ }
 
 
 
