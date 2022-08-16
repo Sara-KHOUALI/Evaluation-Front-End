@@ -5,6 +5,10 @@
     --color-titre-presentation: #50879C;
     --color-blue4: #458DC7;
     --color-blue5: #A5D2F1;
+    --color-orange: #F3CB83;
+    --color-blue-light: #4B8C90;
+    --color-blue-dark:	#1B4555;
+
     --
 }
 
@@ -35,12 +39,12 @@
  }
  /* End Card */
  .btn-primary {
-    --bs-btn-color:var(--color-navbar);
-    --bs-btn-bg:var(--color-titre-presentation);
-    --bs-btn-hover-color: ;
-    --bs-btn-hover-border-color: ;
-    --bs-btn-active-border-color: ;
-    
+
+    --bs-btn-bg:var(--color-blue-light) !important;
+    --bs-btn-border-color:var(--color-blue-light)!important;
+    --bs-btn-hover-bg: var(--color-orange) !important ;
+    --bs-btn-hover-border-color: var(--color-orange) !important;
+    --bs-btn-active-border-color: var(--color-orange) !important;
 
  }
 
