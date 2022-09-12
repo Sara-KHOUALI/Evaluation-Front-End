@@ -1,11 +1,11 @@
 :root {
-    --color-navbar: #50879c;
+    --color-navbar: #50879C;
     --color-navbar-text : #ffffff;
-    --color-body:	rgb(92,177,182 ,0.7);
     --color-titre-presentation: #50879C;
-    --color-blue4: #458DC7;
-    --color-blue5: #A5D2F1;
-    --
+    --color-orange: #F3CB83;
+    --color-blue-light: #4B8C90;
+    --color-blue-dark:	#1B4555;
+
 }
 
 /* Start Navbar*/
