@@ -43,12 +43,12 @@
 /* End Presentation */
  
 /* Start Card */
- .card-bloc {
+.card-bloc {
     margin-top: 40px;
     margin-bottom: 40px;
  }
  /* End Card */
- .btn-primary {
+.btn-primary {
     --bs-btn-bg:var(--color-blue-light) !important;
     --bs-btn-border-color:var(--color-blue-light)!important;
     --bs-btn-hover-bg: var(--color-orange) !important ;
@@ -56,22 +56,54 @@
     --bs-btn-active-border-color: var(--color-orange) !important;
  }
   /* evenements */
-.evenement .card a {
-    color: whitesmoke;
+
+  .clicker {
+    
+    background-color: #50879C;
+    color:#FFF;
     text-align: center;
-}
+    text-decoration: none;
+  
+    
 
-.evenement .card img {
-    margin: auto;
-}
-
-.evenement h1 {
-    color: var(--color-titre-presentation);
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
+  }
+  .clicker.hidden {
+    display: none;
+  }
+  .hiddendiv {
+    height: 0px;
+    background-color: green;
+    overflow: hidden;
+    transition: height 0.5s;
+  }
+  .hiddendiv.nr2 {
+    background-color: red;
+  }
+  
+  #showdiv1:target ~ div a[href="#showdiv1"],
+  #showdiv2:target ~ div a[href="#showdiv2"],
+  #showdiv3:target ~ div a[href="#showdiv3"],
+  #showdiv4:target ~ div a[href="#showdiv4"],
+  #showdiv5:target ~ div a[href="#showdiv5"],
+  #showdiv6:target ~ div a[href="#showdiv6"] {
+    display: none;
+  }
+  #showdiv1:target ~ div a[href="#hidediv1"],
+  #showdiv2:target ~ div a[href="#hidediv2"],
+  #showdiv3:target ~ div a[href="#showdiv3"],
+  #showdiv4:target ~ div a[href="#showdiv4"],
+  #showdiv5:target ~ div a[href="#showdiv5"],
+  #showdiv6:target ~ div a[href="#showdiv6"] {
+    display: inline-block;
+  }
+  #showdiv1:target ~ div .hiddendiv.nr1,
+  #showdiv2:target ~ div .hiddendiv.nr2,
+  #showdiv3:target ~ div .hiddendiv.nr3,
+  #showdiv4:target ~ div .hiddendiv.nr4,
+  #showdiv5:target ~ div .hiddendiv.nr5,
+  #showdiv6:target ~ div .hiddendiv.nr6 {
+    height: 130px;
+  }
   /* end_evenements */
 
 
