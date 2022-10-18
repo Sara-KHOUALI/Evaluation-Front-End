@@ -77,17 +77,58 @@
     <!-- end navigation -->
 
     <!-- Evenement -->
-    <div class="row"> 
-      <img src="./img/slide6.jpg" alt="evenement à venir" style="height: 500px; width: 100%; margin: auto;">
+      <!-- Slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/slide6.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Evenement#1</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/slide5.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Evenement#2</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/slide4.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Evenement#3</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
     </div>
-
+      <!-- end Slider -->
     <div class="container">
+      <!-- Titre -->
       <div class="row">
         <div class="titre-presentation" style="margin-top: 20px;">
           <h1>Évènements à venir</h1>
         </div>
       </div>
+      <!-- end Titre -->
+
+      <!-- Cards -->
       <div class="evenement">
+        <!-- Evenement 1 -->
         <div class="card mb-3">
           <div class="row g-0">
             <div class="d-flex col-md-2">
@@ -95,7 +136,7 @@
             </div>
           
         
-        <div class="col-md-9">
+            <div class="col-md-9">
               <div class="card-body">
                 <h5 class="card-title">Quels enjeux pour le nexus océan-climat-biodiversité ?</h5>
                 <p class="card-text">Alors qu’il y a dix ans, l’océan était le grand absent des négociations internationales sur le climat et la biodiversité, il occupe désormais une place de plus en plus importante. Depuis l’intégration de l’océan dans le Préambule de l’Accord de Paris en 2015, la communauté scientifique, la société civile et des coalitions d’Etats se mobilisent…</p>
@@ -114,8 +155,12 @@
                  
                 </small>
               </div>
+            </div>
+          </div>
         </div>
-      
+        <!-- End-Evenement#1 -->
+
+        <!-- Evenement 2 -->
         <div class="card mb-3">
           <div class="row g-0">
             <div class="d-flex col-md-2">
@@ -134,16 +179,17 @@
                 </small>
                 <br>
                 <small class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
                 </svg>
                 <a href="https://goo.gl/maps/8S9M9JPDWJBw9gXU7" style="color: gray;">Émirats arabes unis-Dubai</a>
                 </small>
               </div>
             </div>
-            
           </div>
         </div>
-      
+        <!-- End-Evenement#2 -->
+        
+        <!-- Evenement 3 -->
         <div class="card mb-3">
           <div class="row g-0">
             <div class="d-flex col-md-2">
@@ -172,7 +218,9 @@
 
           </div>
         </div>
+        <!-- End-Evenement 3 -->
 
+        <!-- Evenement 4 -->
         <div class="card mb-3">
           <div class="row g-0">
             <div class="d-flex col-md-2">
@@ -203,17 +251,16 @@
               
           </div>
         </div>
-
-
+        <!-- End-Evenement 4 -->
 
       </div>
-    </div>
-      </div>
+      <!-- End-Cards -->
+
     </div>
     <!-- End-Evenement -->
 
     <!-- Footer -->
-      <footer class="text-center text-lg-start bg-light text-muted">
+    <footer class="text-center text-lg-start bg-light text-muted">
           <!-- Section: Social media -->
           <section
             class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -334,7 +381,7 @@
             <a class="text-reset fw-bold" href="./index.html">oceanpollution.com</a>
           </div>
           <!-- Copyright -->
-      </footer>      
+    </footer>      
     <!-- end Footer -->
 
   
